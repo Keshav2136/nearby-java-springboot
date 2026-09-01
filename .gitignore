@@ -1,0 +1,38 @@
+# Compiled files
+/build/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets — NEVER commit these
+src/main/resources/application.properties
+*.env
+.env.local
+.env.production
+*.local
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Logs
+*.log
+logs/
+
+# Build directories (contain compiled copies of config)
+bin/
+build/
+
+# Build directories (contain compiled copies of config)
+bin/
+build/
